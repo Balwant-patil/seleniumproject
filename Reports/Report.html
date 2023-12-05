@@ -159,7 +159,7 @@ function sortTable(clicked, keyFunc) {
 }
 
 function sort(items, keyFunc, reversed) {
-    const sortArray = items.map(function(item, i) {
+    const sortArray = items.map(function(item,i) {
         return [keyFunc(item), i];
     });
 
